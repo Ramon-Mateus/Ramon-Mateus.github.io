@@ -9,12 +9,12 @@ body {
 h1 {
     text-align: center;
     margin-top: 3em;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 h2 {
     text-align: center;
-    font-size: 1.7em;
+    font-size: 2em;
 }
 
 #port {
@@ -27,6 +27,13 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.proj2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
 }
 
 .projs {
@@ -52,6 +59,7 @@ h2 {
 .badge {
     border-radius: 5px;
     margin-left: 0.5em;
+    color: blue;
 }
 
 .projetos {
@@ -61,9 +69,31 @@ h2 {
 .link_proj {
     display: flex;
     justify-content: center;
+    margin-top: -1em;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+#direitos {
+    color: rgb(166, 166, 166)
+}
+
+.icons_title {
+    margin-top: -2.3em;
+    transform: scale(140%);
+    margin-left: 0.5em;
+}
+
+.icons_group_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    transform: scale(88%);
+    margin-top: -2.5em;
 }
